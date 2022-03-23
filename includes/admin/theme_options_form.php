@@ -79,9 +79,9 @@
 			</div>
 			<!-- .rtoptions -->
 
-			<div class="line"></div>
+			<div style="display:none;" class="line"></div>
 
-			<div class="ltinfo">
+			<div style="display:none;" class="ltinfo">
 				<h3><?php _e( 'Custom Favicon', 'presscoders' ); ?></h3>
 
 				<p class="description"><?php _e( 'Add a custom favicon image url here.', 'presscoders' ); ?></p>
@@ -89,7 +89,7 @@
 			</div>
 			<!-- .ltinfo -->
 
-			<div class="rtoptions">
+			<div style="display:none;" class="rtoptions">
 				<?php $favicon = PC_Utility::get_custom_favicon(); ?>
 				<div class="box">
 					<input type="text" class="gray" name="<?php echo PC_OPTIONS_DB_NAME; ?>[txt_favicon]" value="<?php echo $options['txt_favicon']; ?>" size="60" />
